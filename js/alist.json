@@ -1,0 +1,10 @@
+{
+  "drives": [
+	{
+      "name": "丫仙女",
+      "search": true,
+      "searchable": true,
+      "server": "http://123.60.191.158:5678/"
+    }
+  ]
+}
