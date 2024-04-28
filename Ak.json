@@ -88,7 +88,7 @@
       "api": "csp_Wexdiguatv",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
     },{
       "key": "Fangniu4k",
       "name": "👎放牛┃TV┃App",
@@ -96,8 +96,103 @@
       "api": "csp_WexFangniu4k",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
+    },{
+      "key": "Wexhanxiaoquan",
+      "name": "🇰🇷韩圈┃TV┃App",
+      "type": 3,
+      "api": "csp_Wexhanxiaoquan",
+      "searchable": 1,
+      "changeable": 1,
+	    "jar": "./jar/wex.txt"
     },
+	{
+      "key": "Wexhanjutv",
+      "name": "🇰🇷韩剧┃TV┃App",
+      "type": 3,
+      "api": "csp_Wexhanjutv",
+      "searchable": 1,
+      "changeable": 1,
+		"jar": "./jar/wex.txt"
+    },{
+      "key": "Wexshandian",
+      "name": "⚡️闪电┃秒播┃直连",
+      "type": 3,
+      "api": "csp_Wexshandian",
+      "searchable": 1,
+      "changeable": 1,
+		"jar": "./jar/wex.txt"
+    },{
+      "key": "Wexliyuan",
+      "name": "🎎戏曲┃看呗┃秒播",
+      "type": 3,
+      "api": "csp_Wexliyuan",
+      "searchable": 1,
+      "changeable": 0,
+	  	  "style": {
+        "type": "rect",
+        "ratio": 2
+        },
+		"jar": "./jar/wex.txt"
+    },
+    {
+      "key": "Wextangdou",
+      "name": "💃跳舞┃玩呗┃教学",
+      "type": 3,
+      "api": "csp_Wextangdou",
+      "searchable": 1,
+      "changeable": 0,
+	  	  "style": {
+        "type": "rect",
+        "ratio": 2
+        },
+	    "jar": "./jar/wex.txt"
+    },
+    {
+      "key": "Pandalivetv",
+      "name": "😍韩国┃美女┃直播",
+      "type": 3,
+      "api": "csp_WexPandalivetv",
+      "searchable": 0,
+      "changeable": 0,
+	    "jar": "./jar/wex.txt"
+    },{
+      "key": "Wexwuxiang",
+      "name": "🌐格斗┃给力┃体育",
+      "type": 3,
+      "api": "csp_Wexwuxiang",
+      "searchable": 1,
+      "changeable": 0,
+	  	  "style": {
+        "type": "rect",
+        "ratio": 2
+        },
+	    "jar": "./jar/wex.txt"
+    },
+    {
+      "key": "看球",
+      "name": "🌐88┃看球┃体育",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+	    "jar": "./jar/wex.txt"
+    },
+	{
+	  "key":"企鹅体育xp",
+	  "name":"🐧大鹅┃看球┃体育",
+	  "type":3,
+	  "api":"csp_XPath",
+	  "style":{"type":"list"},
+      "searchable":0,
+	  "quickSearch":0,
+	  "changeable":0,
+		"jar": "./jar/wex.txt",
+	  "ext":"https://gitcode.net/wexfnw/wex/-/raw/master/qie.json"
+	},
 	{
       "key": "Kuyun77",
       "name": "7️⃣小七┃影视┃App",
@@ -105,7 +200,7 @@
       "api": "csp_WexKuyun77",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
     },{
       "key": "BT",
       "name": "🛩️BT┃之家┃P2P",
@@ -117,7 +212,7 @@
         "type": "list",
         "ratio": 1.00
         },
-        "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+        "jar": "./jar/wex.txt"
     },
 	{
 	  "key":"音范丝",
@@ -127,7 +222,7 @@
       "searchable":1,
 	  "quickSearch":0,
 	  "changeable":0,
-	  "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac",
+	  "jar": "./jar/wex.txt;md5",
 	  "ext":"https://gitcode.net/wexfnw/wex/-/raw/master/fys.json"
 	},
 	 {
@@ -137,7 +232,7 @@
       "api": "csp_WexMp4dy",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
     },
     {
       "key": "新6V",
@@ -146,7 +241,7 @@
       "api": "csp_WexXb6v",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
     },
 	{
       "key": "Twobt",
@@ -155,7 +250,7 @@
       "api": "csp_WexTwobt",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/wex.txt;md5;18eedce2077dc99c909607aa71ff50ac"
+      "jar": "./jar/wex.txt"
     },
     {"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
 		{"key":"Libvio","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.fun/$$$null"},
@@ -266,12 +361,6 @@
 		{"key": "XBPQ_麻衣影院","name":"麻衣影院|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/XBPQ.jar",
 			"ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
 		},
-        {
-            "key": "看球",
-            "name": "🌐88看球|体育赛事",
-            "type": 3,
-            "api": "csp_Kanqiu"
-        },
         {
             "key": "AList",
             "name": "网盘|Alist[jar]",
