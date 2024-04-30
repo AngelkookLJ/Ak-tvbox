@@ -9,17 +9,19 @@
 		  "searchable": 0,
 		  "quickSearch": 0,
 		  "filterable": 0,
+		  "jar": "./jar/wex.txt",
 		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
 		},
-		{
+		/*{
 		  "key": "应用商店",
 		  "name": "🆗【影视应用商店】🆗",
 		  "type": 3,
 		  "api": "csp_Market",
 		  "searchable": 0,
 		  "changeable": 0,
+		  "jar": "./jar/wex.txt",
 		  "ext": "https://fm.t4tv.hz.cz/json/market.json"
-		},
+		},*/
 		{
 		  "key":"Doubana",
 		  "name":"⬇️【阿里夸克先扫码】⬇️",
@@ -28,6 +30,7 @@
 		  "searchable": 0,
 		  "quickSearch": 0,
 		  "filterable": 0,
+		  "jar": "./jar/wex.txt",
 		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
 		},
 		{
@@ -37,6 +40,7 @@
 		  "api": "csp_Wexconfig",
 		  "searchable": 0,
 		  "changeable": 0,
+		  "jar": "./jar/wex.txt",
 		  "style": {
 			"type": "rect",
 			"ratio": 1.43
@@ -164,7 +168,8 @@
 		  "type": 3,
 		  "api": "csp_Wogg",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 		  "key": "土豆",
@@ -172,7 +177,8 @@
 		  "type": 3,
 		  "api": "csp_Wextudou",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 		  "key": "Wexyingchao",
@@ -180,7 +186,8 @@
 		  "type": 3,
 		  "api": "csp_Wexyingchao",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 			"key": "Wexwanni",
