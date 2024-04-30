@@ -1429,11 +1429,7 @@
 			{
 				"name": "AK港台(指定节点)",
 				"type": 0,
-				"url": "https://www.stream-link.org/stream-link.m3u",
-				"playerType": 1,
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"url": "https://www.stream-link.org/stream-link.m3u"
 			},
 			{
 				"name": "live.ipv6",
