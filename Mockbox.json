@@ -2,6 +2,16 @@
 	"spider":"./pg.jar",
 	"sites":[
 		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./lib/douban.json"
+		},
+		/*{
 		  "key":"Douban",
 		  "name":"🐮【王二小放牛娃温馨提醒:网络套路深，谨防割韭菜】🐮",
 		  "type": 3, 
@@ -11,7 +21,7 @@
 		  "filterable": 0,
 		  "jar": "./jar/wex.txt",
 		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
-		},
+		},*/
 		/*{
 		  "key": "应用商店",
 		  "name": "🆗【影视应用商店】🆗",
@@ -22,7 +32,7 @@
 		  "jar": "./jar/wex.txt",
 		  "ext": "https://fm.t4tv.hz.cz/json/market.json"
 		},*/
-		{
+		/*{
 		  "key":"Doubana",
 		  "name":"⬇️【阿里夸克先扫码】⬇️",
 		  "type": 3, 
@@ -32,10 +42,10 @@
 		  "filterable": 0,
 		  "jar": "./jar/wex.txt",
 		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
-		},
+		},*/
 		{
 		  "key": "Wexconfig",
-		  "name": "🐮配置┃中心🐮(二小)",
+		  "name": "网盘及彈幕配置(二小)",
 		  "type": 3,
 		  "api": "csp_Wexconfig",
 		  "searchable": 0,
@@ -46,16 +56,6 @@
 			"ratio": 1.43
 			}
 		},
-		/*{
-			"key": "豆瓣",
-			"name": "豆瓣",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"indexs":1,
-			"ext": "./lib/douban.json"
-		},*/
 		{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置(PG)",
