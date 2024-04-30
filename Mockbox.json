@@ -11,38 +11,6 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		},
-		/*{
-		  "key":"Douban",
-		  "name":"🐮【王二小放牛娃温馨提醒:网络套路深，谨防割韭菜】🐮",
-		  "type": 3, 
-		  "api": "csp_Douban",
-		  "searchable": 0,
-		  "quickSearch": 0,
-		  "filterable": 0,
-		  "jar": "./jar/wex.txt",
-		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
-		},*/
-		/*{
-		  "key": "应用商店",
-		  "name": "🆗【影视应用商店】🆗",
-		  "type": 3,
-		  "api": "csp_Market",
-		  "searchable": 0,
-		  "changeable": 0,
-		  "jar": "./jar/wex.txt",
-		  "ext": "https://fm.t4tv.hz.cz/json/market.json"
-		},*/
-		/*{
-		  "key":"Doubana",
-		  "name":"⬇️【阿里夸克先扫码】⬇️",
-		  "type": 3, 
-		  "api": "csp_Douban",
-		  "searchable": 0,
-		  "quickSearch": 0,
-		  "filterable": 0,
-		  "jar": "./jar/wex.txt",
-		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
-		},*/
 		{
 		  "key": "Wexconfig",
 		  "name": "网盘及彈幕配置(二小)",
@@ -1456,6 +1424,14 @@
 				"type": 0,
 				"timeout": 40,
 				"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/xiutan.m3u",
+				"boot": false
+			},
+			{
+				"name": "AK港台(指定节点)",
+				"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+				"type": 0,
+				"timeout": 40,
+				"url": "https://www.stream-link.org/stream-link.m3u",
 				"boot": false
 			},
 			{

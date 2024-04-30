@@ -12,8 +12,21 @@
 			"ext": "./lib/douban.json"
 		},
 		{
+		  "key": "Wexconfig",
+		  "name": "网盘及彈幕配置(二小)",
+		  "type": 3,
+		  "api": "csp_Wexconfig",
+		  "searchable": 0,
+		  "changeable": 0,
+		  "jar": "./jar/wex.txt",
+		  "style": {
+			"type": "rect",
+			"ratio": 1.43
+			}
+		},
+		{
 			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
+			"name": "网盘及彈幕配置(PG)",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -162,24 +175,13 @@
             }
         },
 		{
-		  "key": "Wexconfig",
-		  "name": "🐮配置┃中心🐮",
-		  "type": 3,
-		  "api": "csp_Wexconfig",
-		  "searchable": 0,
-		  "changeable": 0,
-		  "style": {
-			"type": "rect",
-			"ratio": 1.43
-			}
-		},
-		{
 		  "key": "玩偶",
 		  "name": "🥷玩偶┃网盘┃综合",
 		  "type": 3,
 		  "api": "csp_Wogg",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 		  "key": "土豆",
@@ -187,7 +189,8 @@
 		  "type": 3,
 		  "api": "csp_Wextudou",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 		  "key": "Wexyingchao",
@@ -195,7 +198,8 @@
 		  "type": 3,
 		  "api": "csp_Wexyingchao",
 		  "searchable": 1,
-		  "changeable": 1
+		  "changeable": 1,
+		  "jar": "./jar/wex.txt"
 		},
 		{
 			"key": "Wexwanni",
