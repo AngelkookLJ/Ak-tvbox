@@ -1428,14 +1428,6 @@
 			},
 			{
 				"name": "AK港台(指定节点)",
-				"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-				"type": 0,
-				"timeout": 40,
-				"url": "https://www.stream-link.org/stream-link.m3u",
-				"boot": false
-			},
-			{
-				"name": "AK港台(指定节点)",
 				"type": 0,
 				"url": "https://www.stream-link.org/stream-link.m3u",
 				"playerType": 1,
