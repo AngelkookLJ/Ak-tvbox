@@ -117,6 +117,35 @@
                 "ratio": 1.1
             }
         },
+			{
+		  "key":"Douban",
+		  "name":"🐮【王二小放牛娃温馨提醒:网络套路深，谨防割韭菜】🐮",
+		  "type": 3, 
+		  "api": "csp_Douban",
+		  "searchable": 0,
+		  "quickSearch": 0,
+		  "filterable": 0,
+		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
+		},
+		{
+		  "key": "应用商店",
+		  "name": "🆗【影视应用商店】🆗",
+		  "type": 3,
+		  "api": "csp_Market",
+		  "searchable": 0,
+		  "changeable": 0,
+		  "ext": "https://fm.t4tv.hz.cz/json/market.json"
+		},
+		{
+		  "key":"Doubana",
+		  "name":"⬇️【阿里夸克先扫码】⬇️",
+		  "type": 3, 
+		  "api": "csp_Douban",
+		  "searchable": 0,
+		  "quickSearch": 0,
+		  "filterable": 0,
+		  "ext": "https://gitcode.net/wexfnw/wex/-/raw/master/douban.json"
+		},
 		{
 		  "key": "Wexconfig",
 		  "name": "🐮配置┃中心🐮",
