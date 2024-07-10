@@ -35,6 +35,17 @@
 		},
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://tang.serv00.net/power/ub1818?token=d0a258d5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": true
+		},
+		{
             "key": "XVideos",
             "name": "🔞XVideos | 直连",
             "type": 3,
