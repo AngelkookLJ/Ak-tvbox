@@ -207,6 +207,7 @@
 				"cookie":""
 			}
 		},
+		{"key":"蜡笔","name":"📀蜡笔丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":"./lib/tokenm.json$$$https://duopan.fun/$$$1$$$./lib/wogg.json","timeout":30},
 		{"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
 		{"key":"Libvio","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.fun/$$$null"},
 		{"key":"Bt0","name":"不太灵|磁力","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$noproxy$$$1"},
@@ -349,6 +350,53 @@
 				"类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41||国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68||国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
 				}
 		},
+		{
+            "key": "映播XBPQ",
+            "name": "👒映播┃XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "数组": "public-list-box&&</div>",
+                "图片": "data-original=\"&&\"",
+                "搜索url": "https://www.ingbo.tv/search/1/?keyword={wd}",
+                "播放数组": "class=\"anthology-list-play&&</div>",
+                "线路数组": "title=&&</a>[排序:映播六线>映播三线>映播四线>映播五线>映播二线>映播-线>腾讯>芒果>B站]",
+                "分类url": "https://www.ingbo.tv/vod/list/{catePg}/{cateId}/{class}/{year}/{area}/0/0/0",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+		{
+      "key": "PPT",
+      "name": "❤️‍🔥〔PPT丨XP™〕",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/XBPQ.jar",
+      "ext": {
+        "首页":"电视剧$30",
+        "数组":"col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
+        "图片":"src=\"&&\"",
+        "标题": "alt=\"&&\"",
+        "副标题": "class=\"badge badge-success\">&&</span>",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://ptt.red/node/search?title={wd}",
+        "搜索数组":"col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
+        "搜索副标题": "class=\"badge badge-success\">&&</span>",
+        "多线二次截取": "class=\"tabbable fullwidth\">&&</div",
+        "多线数组": "class=\"nav-item\">&&</li",
+        "多线链接": "href=\"&&\"",
+        "多线链接前缀": "https://ptt.red",
+        "多线链接后缀": "",
+        "线路数组":"class=\"nav-item\">&&</li",
+        "线路标题": "title=\"&&\"",
+        "播放数组": "默认--class=\"mb-2 fullwidth\">&&</div>||电影--class=\"nav-item\">&&</li",
+        "播放标题": ">&&</a>",
+        "播放链接": "href=\"&&\"",
+        "直接播放":"体育",
+        "分类": "电影$1#电视剧$3#综艺$2#动漫$4#短剧$66#体育$53",
+        "分类url":"https://ptt.red/p/{cateId}?page={catePg}"
+      }
+},
 		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
 			"ext": {
 				"站名": "黑狐影院",
@@ -831,14 +879,49 @@
 			"ext":"https://www.duanjutv.icu"
 		},
 		{
+            "proxy": "proxy",
             "key": "AList",
-            "name": "网盘|Alist[jar]",
+            "name": "❤小雅",
+            "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "type": 3,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
             "api": "csp_AList",
             "searchable": 1,
-            "filterable": 1,
             "changeable": 1,
-            "ext": "./js/alist.json"
+            "ext": {
+                "style": {
+                    "type": "oval",
+                    "ratio": 1.485
+                },
+                "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
+                "drives": [
+                    {
+                        "name": "9T",
+                        "server": "https://drive.mc.ci",
+                        "params": [
+                            {
+                                "path": "/OneDrive",
+                                "pass": "mcci"
+                            },
+                            {
+                                "path": "/115Cloud",
+                                "pass": "mcci"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "【4K点播】☞按片名首字母↓往下翻页",
+                        "server": "https://pan.ecve.cn"
+                    },
+                    {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    }
+                ]
+            }
         },
 		/*{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alist.json"},*/
 		{
